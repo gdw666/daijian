@@ -1,0 +1,30 @@
+{
+  "properties":{
+    "shopId":{
+      "type": "text"
+    },
+    "keyword":{
+      "type": "text"
+    , "analyzer": "ik_smart"
+    },
+    "shopName":{
+      "type": "text"
+    },
+    "avatarUrl":{
+      "type": "text",
+      "index": false
+    },
+    "monthlySales":{
+      "type": "integer"
+    },
+    "originRegion":{
+      "type": "text"
+    },
+    "credit":{
+      "type": "integer"
+    },
+    "suggests":{
+      "type": "completion"
+    }
+  }
+}

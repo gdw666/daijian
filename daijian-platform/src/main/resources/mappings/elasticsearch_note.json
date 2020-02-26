@@ -1,0 +1,45 @@
+{"properties":{
+"keyword":{
+"type": "text"
+, "analyzer": "ik_smart"
+},
+"notesId":{
+"type": "keyword"
+},
+"userId":{
+"type": "keyword"
+},
+"manorAvatarUrl":{
+"type": "keyword",
+"index": false
+},
+"manorName":{
+"type": "keyword"
+},
+"goodsId":{
+"type": "keyword"
+},
+"coverImageUrl":{
+"type": "keyword",
+"index": false
+},
+"title":{
+"type": "text"
+},
+"likeNum":{
+"type": "integer"
+},
+"viewNum":{
+"type": "integer"
+},
+"commentNum":{
+"type": "integer"
+},
+"createTime":{
+"type": "date"
+},
+"suggests":{
+"type": "completion"
+}
+}
+}

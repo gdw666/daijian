@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "number_of_shards": 1
+  , "number_of_replicas": 0
+  },
+  "properties": {
+    "goodsId":{
+      "type": "text"
+    },
+    "keyword":{
+      "type": "text"
+    , "analyzer": "ik_smart"
+    },
+    "name":{
+      "type": "keyword"
+    },
+    "categoryId":{
+      "type": "keyword"
+    },
+    "avatarUrl":{
+      "type": "keyword",
+      "index": false
+    },
+    "originRegion": {
+      "type": "text"
+    },
+    "monthlySales": {
+      "type": "integer"
+    },
+    "unitPrice":{
+      "type": "double"
+    },
+    "originPrice":{
+      "type": "double"
+    },
+    "favorableRate": {
+      "type": "integer"
+    },
+    "specification": {
+      "type": "keyword"
+    },
+    "shopName": {
+      "type": "keyword"
+    },
+    "createTime":{
+      "type": "date"
+    },
+    "suggests":{
+      "type": "completion"
+    }
+  }
+}
